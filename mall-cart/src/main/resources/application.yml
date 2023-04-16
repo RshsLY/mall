@@ -1,0 +1,15 @@
+mall:
+  thread:
+    core-size: 20
+    max-size: 200
+    keep-alive-time: 10
+spring:
+  zipkin:
+    base-url: http://192.168.2.37:9411/ # zipkin 服务器的地址
+    # 关闭服务发现，否则Spring Cloud 会把zipkin 的url 当做服务名称
+    discoveryClientEnabled: false
+    sender:
+      type: web # 设置使用http 的方式传输数据
+  sleuth:
+    sampler:
+      probability: 1 # 设置抽样采集率为100%，默认为0.1，即10%

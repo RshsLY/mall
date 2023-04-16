@@ -1,0 +1,38 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://192.168.2.37:3306/mall_wms
+    driver-class-name: com.mysql.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: mall-ware
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+  zipkin:
+    base-url: http://192.168.2.37:9411/ # zipkin 服务器的地址
+    # 关闭服务发现，否则Spring Cloud 会把zipkin 的url 当做服务名称
+    discoveryClientEnabled: false
+    sender:
+      type: web # 设置使用http 的方式传输数据
+  sleuth:
+    sampler:
+      probability: 1 # 设置抽样采集率为100%，默认为0.1，即10%
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+
+
+
+
+server:
+  port: 12000
+logging:
+  level:
+    com.ly: debug
