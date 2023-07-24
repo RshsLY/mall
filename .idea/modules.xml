@@ -12,8 +12,6 @@
       <module fileurl="file://$PROJECT_DIR$/mall-product/mall-product.iml" filepath="$PROJECT_DIR$/mall-product/mall-product.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-search/mall-search.iml" filepath="$PROJECT_DIR$/mall-search/mall-search.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-seckill/mall-seckill.iml" filepath="$PROJECT_DIR$/mall-seckill/mall-seckill.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-sso-client/mall-sso-client.iml" filepath="$PROJECT_DIR$/mall-sso-client/mall-sso-client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-sso-server/mall-sso-server.iml" filepath="$PROJECT_DIR$/mall-sso-server/mall-sso-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-third-party/mall-third-party.iml" filepath="$PROJECT_DIR$/mall-third-party/mall-third-party.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-ware/mall-ware.iml" filepath="$PROJECT_DIR$/mall-ware/mall-ware.iml" />
       <module fileurl="file://$PROJECT_DIR$/renren-fast/renren-fast.iml" filepath="$PROJECT_DIR$/renren-fast/renren-fast.iml" />

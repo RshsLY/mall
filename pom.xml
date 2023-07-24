@@ -24,7 +24,5 @@
 		<module>mall-auth-server</module>
 		<module>mall-cart</module>
 		<module>mall-seckill</module>
-		<module>mall-sso-client</module>
-		<module>mall-sso-server</module>
 	</modules>
 </project>
